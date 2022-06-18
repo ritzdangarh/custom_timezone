@@ -1,0 +1,6 @@
+name: Custom Timezone
+type: module
+description: Display Time According to Timezone
+core_version_requirement: ">=8"
+​package: Custom
+configure: custom_timezone.admin_settings

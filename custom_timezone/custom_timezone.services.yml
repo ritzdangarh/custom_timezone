@@ -1,0 +1,6 @@
+services:
+  cache_context.custom_timezone:
+    class: Drupal\custom_timezone\CacheContext\CustomTimeZone
+    arguments: ["@config.factory"]
+    tags:
+      - { name: cache_context }

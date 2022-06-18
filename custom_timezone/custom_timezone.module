@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * Implements hook_theme().
+ */
+function custom_timezone_theme($existing, $type, $theme, $path) {
+  return [
+    'custom_time_zone_block' => [
+      'variables' => [
+        'city' => NULL,
+        'country' => NULL,
+        'datetime' => NULL,
+        'custom_timezone' => NULL,
+      ],
+    ]
+  ];
+}
